@@ -2,8 +2,9 @@
 
 const items = ['Pencil', 'Notebook', 'yo-yo', 'Gum'];
 
-/* 
 
+
+/*
   //Given this problem: 
   
   function firstItem(arr, cb) {
@@ -14,7 +15,7 @@ const items = ['Pencil', 'Notebook', 'yo-yo', 'Gum'];
 
   // Higher order function using "cb" as the call back
   function firstItem(arr, cb) {
-    return cb(arr[0]);
+    return cb(arr[2]);
   }
 
   // Function invocation 
@@ -26,6 +27,7 @@ const items = ['Pencil', 'Notebook', 'yo-yo', 'Gum'];
 
 
 function getLength(arr, cb) {
+  getLength 
   // getLength passes the length of the array into the callback.
 }
 
